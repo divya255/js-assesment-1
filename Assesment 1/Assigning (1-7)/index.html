@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Internal JS" />
+    <title>JS Assesment-1</title>
+  </head>
+  <body>
+    <script>
+        //1) Declaring a variable//
+        let age="23";
+        console.log(age);
+        //2) input with greeting message//
+        let name= prompt("What is your name");
+        let result=confirm("Welcome divya!!");
+        //3) Sum of two numbers //
+        let num1="4";
+        let num2="9";
+        let sum= +num1 + +num2;
+        console.log(`The Sum of two numbers are: ${sum}`);
+        //4) temperature to fahrenheit conversion//
+        let c = prompt("Enter a temperature in celsius");
+        let f = (c*9/5)+32;
+        alert ("Temperature in fahrenheit= "+f);
+        // 5) True , false //
+        console.log(20>10);
+        console.log(10<9);
+        // 6) calculate area of rectangle //
+        let L = prompt("Enter Length");
+        let W = prompt("Enter Width");
+        let A = L*W;
+        alert ("Area of Rectangle is = "+L*W);
+        // 7) based on score display msg//
+        let a = prompt("enter the number");
+        if (a > 90) 
+         {
+        alert("excellent");
+        } 
+         else if (a = 79) 
+         {
+        alert("Keep it up");
+         } 
+         else(a < 70)
+         {
+        alert("Try Harder");
+       }       
+       // 9) odd or even//
+       let x = prompt("Enter a number");
+       if(x%2 ==0){
+        alert ("This is even number");
+       }
+       else{
+        alert ("This is odd number");
+       }
+       // 10) 
+       let P = 22;
+       if(P<=18){
+        console.log("True");
+       }
+       else{
+        console.log("false");
+       }
+       // 8) calc
+       let number1="10";
+        let number2="10";
+        let sumation= +number1 + +number2;
+        console.log(`The Sum of two numbers are: ${sumation}`);
+        let n1="4";
+        let n2="9";
+        let sub= +n1 - +n2;
+        console.log(`The Sub of two numbers are: ${sub}`);
+        let N1="4";
+        let N2="9";
+        let Multiply= +N1*+N2;
+        console.log(`The Multiply of two numbers are: ${Multiply}`);
+        let nu1="4";
+        let nu2="9";
+        let div= +nu1/+nu2;
+        console.log(`The Div of two numbers are: ${div}`);
+    </script>
+  </body>
+</html>
